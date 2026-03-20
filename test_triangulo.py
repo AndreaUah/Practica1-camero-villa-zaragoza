@@ -8,8 +8,9 @@ def test_case1_escaleno():
 def test_case2_equilatero():
     assert checktriangle(6, 6, 6) == "Triangulo equilatero"
 
-def test_case3_isosceles():
-    assert checktriangle(3, 3, 4) == "Triangulo isosceles"
+assert checktriangle(3, 3, 4) == "Triangulo isosceles" 
+    assert checktriangle(4, 3, 3) == "Triangulo isosceles" 
+    assert checktriangle(3, 4, 3) == "Triangulo isosceles" 
 
 def test_case4_no_es_triangulo():
     assert checktriangle(4, 3, 0) == "No es un triangulo"
