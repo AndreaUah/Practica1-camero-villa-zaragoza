@@ -11,7 +11,7 @@ def checktriangle(a, b, c):
         # Lógica de clasificación
         if a == b and a == c:
             return "Triangulo equilatero"
-        elif a == b or b == c:
+        elif a == b or b == c or a == c:
             # Se mantiene la lógica original (a==b || b==c)
             return "Triangulo isosceles"
         else:
